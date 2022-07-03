@@ -1,7 +1,12 @@
 {
-  "name": "portfolio",
+  "name": "personal-website",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "author": {
+    "name": "Harivansh",
+    "email": "hello@harivan.sh",
+    "url": "https://harivan.sh"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc --noEmit && vite build",
