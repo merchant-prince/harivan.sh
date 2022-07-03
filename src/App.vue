@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full bg-slate-50">
+  <div class="w-full h-full flex flex-col bg-slate-50">
     <nav class="p-4 flex justify-between items-center space-x-4">
       <a href="#">
         <svg
@@ -105,11 +105,10 @@
         </svg>
       </a>
     </nav>
-    <main>
-      <p>Hi, I'm</p>
-      <p>Harivansh</p>
-      <p>and I craft solutions using code.</p>
+    <main class="p-4 flex-1 flex flex-col justify-center space-y-4">
+      <p class="font-['Josefin_Slab'] font-semibold">Hi, I'm</p>
+      <p class="font-['Bungee_Shade'] text-4xl text-center">Harivansh</p>
+      <p class="font-['Josefin_Slab'] font-semibold text-right">and I craft solutions using code.</p>
     </main>
-    <footer></footer>
   </div>
 </template>
