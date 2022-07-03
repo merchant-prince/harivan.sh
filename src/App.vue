@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-full flex flex-col bg-slate-50">
-    <nav class="p-4 flex justify-end items-center">
+    <nav class="p-4 lg:p-6 flex justify-end items-center">
       <a
         href="https://github.com/merchant-prince"
         aria-label="GitHub"
@@ -8,7 +8,7 @@
         rel="noreferrer"
       >
         <svg
-          class="h-6 w-6 text-gray-800"
+          class="h-6 lg:h-8 w-6 lg:w-8 text-gray-800"
           xmlns="http://www.w3.org/2000/svg"
           role="img"
           viewBox="0 0 24 24"
@@ -25,12 +25,12 @@
         </svg>
       </a>
     </nav>
-    <main class="p-4 flex-1 flex flex-col justify-center space-y-4">
-      <p class="font-['Josefin_Slab'] font-semibold text-slate-600 text-lg">Hi, I'm</p>
-      <p class="font-['Bungee_Shade'] text-4xl text-center">Harivansh</p>
-      <p class="font-['Josefin_Slab'] font-semibold text-right text-slate-600 text-lg">and I craft solutions using code.</p>
+    <main class="p-4 mx-auto flex-1 flex flex-col justify-center space-y-5 lg:space-y-8">
+      <p class="font-['Josefin_Slab'] font-semibold text-slate-600 text-lg lg:text-2xl">Hi, I'm</p>
+      <p class="font-['Bungee_Shade'] text-4xl md:text-6xl lg:text-8xl xl:text-9xl text-center">Harivansh</p>
+      <p class="font-['Josefin_Slab'] font-semibold text-right text-slate-600 text-lg lg:text-2xl">and I craft solutions using code.</p>
     </main>
-    <footer class="p-4 flex justify-center">
+    <footer class="p-4 lg:p-6 flex justify-center">
       <a href="mailto:hello@harivan.sh?subject=Hi" title="Say Hi!" class="text-center text-slate-400 font-['Coda']">hello@harivan.sh</a>
     </footer>
   </div>
